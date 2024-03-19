@@ -1,0 +1,11 @@
+Programming language used: Java
+Purpose of code: to play the card game "Switch" that can be played up to 5 players. the purpose of the game is to finish all the card in one's hand and to play a card the card must match either the suit or rank of the card on top of the discard pile
+Scale of project: number of classes = 5, lines of code = 172
+Use of OOP concepts:
+- abstraction (Game)
+- composition (Hand and Stock is composed of Card)
+- encapsulation (class attributes are only accessible within the class or by class methods)
+Interesting use of data structures:
+- a Stack is used to implement the Stock class so that only the last card can be drawn
+- an Arraylist is used to store the keys for the playermap HashMap so that the gameplay could be looped according to the order in the Arraylist
+- the Pair class is created to return tuples from a class method in Hand
